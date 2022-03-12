@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Poppins:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Neucha', cursive;
+}
+body {
+  background: rgb(20, 129, 208);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  }
+  .wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 16px;
+  
+  }
+  .wrapper h1{
+    text-align: center;
+    margin: 20px 0 50px;
+    font-size: 50px;
+  }  
+  
+  .countdown {
+  width: 95vw;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  }
+  .box {
+  width: 28vmin;
+  height: 29vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  }
+  span.num {
+  background-color: white;
+  color: rgb(8, 78, 142);
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 4.2em;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  border-radius: 0.1em;
+  }
+  
+  span.text {
+  font-size: 1.1em;
+  background-color: rgb(211, 241, 22);
+  color: #202020;
+  display: block;
+  width: 80%;
+  position: relative;
+  text-align: center;
+  bottom: -10px;
+  padding: 0.6em 0;
+  font-weight: 600;
+  border-radius: 0.3em;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  }   
+
+/* @media (max-width: 1024px){
+  #service-section {
+    padding: 50px 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}  */
+/* @media (max-width: 667px){
+  .gallery-main .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  } 
+} */
+ @media (max-width: 425px){
+  .wrapper h1{
+    font-size: 30px;
+  } 
+}
+@media (max-width: 375px){
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* @media (max-width: 320px){
+  .gallery-main .category ul li {
+    margin-right: 10px;
+  }
+} */
